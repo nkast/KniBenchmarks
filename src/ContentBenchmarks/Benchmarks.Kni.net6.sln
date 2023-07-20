@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.Android.net6", "Benchmarks.Kni.Android\Benchmarks.Kni.Android.net6.csproj", "{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.WindowsDX.net6", "Benchmarks.Kni.WindowsDX\Benchmarks.Kni.WindowsDX.net6.csproj", "{2F771463-A953-4520-AC0E-986009AAD47A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.DesktopGL.net6", "Benchmarks.Kni.DesktopGL\Benchmarks.Kni.DesktopGL.net6.csproj", "{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.BlazorGL.net6", "Benchmarks.Kni.BlazorGL\Benchmarks.BlazorGL.net6.csproj", "{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F771463-A953-4520-AC0E-986009AAD47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F771463-A953-4520-AC0E-986009AAD47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F771463-A953-4520-AC0E-986009AAD47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F771463-A953-4520-AC0E-986009AAD47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31DCEAD5-2FC2-4B2C-B9B8-9058D3991A30}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{1cb8d8c7-5686-4876-9ca4-75c6fb22567d}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{2f771463-a953-4520-ac0e-986009aad47a}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{71c19b9e-a73d-4381-b04a-4c530bcb9d6f}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{770e7e53-f40d-47a6-ac4e-e3e2330ffd9e}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{efc61fed-dd64-4887-81ba-8a5604ba8c04}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

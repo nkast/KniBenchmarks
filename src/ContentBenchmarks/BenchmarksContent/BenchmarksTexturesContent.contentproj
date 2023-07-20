@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{257907FF-B65A-4CA9-AF37-61E46A03D8B3}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BenchmarksTexturesContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BenchmarksTextures\Tx1001.png">
+      <Name>Tx1001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1002.png">
+      <Name>Tx1002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1003.png">
+      <Name>Tx1003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1004.png">
+      <Name>Tx1004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1005.png">
+      <Name>Tx1005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1006.png">
+      <Name>Tx1006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1007.png">
+      <Name>Tx1007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1008.png">
+      <Name>Tx1008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1009.png">
+      <Name>Tx1009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1010.png">
+      <Name>Tx1010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1011.png">
+      <Name>Tx1011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1012.png">
+      <Name>Tx1012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1013.png">
+      <Name>Tx1013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1014.png">
+      <Name>Tx1014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1015.png">
+      <Name>Tx1015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1016.png">
+      <Name>Tx1016</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1017.png">
+      <Name>Tx1017</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1018.png">
+      <Name>Tx1018</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1019.png">
+      <Name>Tx1019</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1020.png">
+      <Name>Tx1020</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1021.png">
+      <Name>Tx1021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1022.png">
+      <Name>Tx1022</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1023.png">
+      <Name>Tx1023</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1024.png">
+      <Name>Tx1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1025.png">
+      <Name>Tx1025</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1026.png">
+      <Name>Tx1026</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1027.png">
+      <Name>Tx1027</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1028.png">
+      <Name>Tx1028</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1029.png">
+      <Name>Tx1029</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1030.png">
+      <Name>Tx1030</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1031.png">
+      <Name>Tx1031</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1032.png">
+      <Name>Tx1032</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1033.png">
+      <Name>Tx1033</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1034.png">
+      <Name>Tx1034</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1035.png">
+      <Name>Tx1035</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1036.png">
+      <Name>Tx1036</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1037.png">
+      <Name>Tx1037</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1038.png">
+      <Name>Tx1038</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1039.png">
+      <Name>Tx1039</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1040.png">
+      <Name>Tx1040</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1041.png">
+      <Name>Tx1041</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1042.png">
+      <Name>Tx1042</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1043.png">
+      <Name>Tx1043</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1044.png">
+      <Name>Tx1044</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1045.png">
+      <Name>Tx1045</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1046.png">
+      <Name>Tx1046</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1047.png">
+      <Name>Tx1047</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1048.png">
+      <Name>Tx1048</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1049.png">
+      <Name>Tx1049</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1050.png">
+      <Name>Tx1050</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1051.png">
+      <Name>Tx1051</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1052.png">
+      <Name>Tx1052</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1053.png">
+      <Name>Tx1053</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1054.png">
+      <Name>Tx1054</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1055.png">
+      <Name>Tx1055</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1056.png">
+      <Name>Tx1056</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1057.png">
+      <Name>Tx1057</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1058.png">
+      <Name>Tx1058</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1059.png">
+      <Name>Tx1059</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1060.png">
+      <Name>Tx1060</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1061.png">
+      <Name>Tx1061</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1062.png">
+      <Name>Tx1062</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1063.png">
+      <Name>Tx1063</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+    <Compile Include="BenchmarksTextures\Tx1064.png">
+      <Name>Tx1064</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <ProcessorParameters_GenerateMipmaps>True</ProcessorParameters_GenerateMipmaps>
+      <ProcessorParameters_ResizeToPowerOfTwo>False</ProcessorParameters_ResizeToPowerOfTwo>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+</Project>

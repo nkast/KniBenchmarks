@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Fna.DesktopGL.net6", "Benchmarks.Fna.OpenGL\Benchmarks.Fna.DesktopGL.net6.csproj", "{708E6AD0-770C-4222-B0E5-9A95033A6747}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{708E6AD0-770C-4222-B0E5-9A95033A6747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708E6AD0-770C-4222-B0E5-9A95033A6747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708E6AD0-770C-4222-B0E5-9A95033A6747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708E6AD0-770C-4222-B0E5-9A95033A6747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66854110-A974-4813-8FD1-C1437156E5A2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{708e6ad0-770c-4222-b0e5-9a95033a6747}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{efc61fed-dd64-4887-81ba-8a5604ba8c04}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

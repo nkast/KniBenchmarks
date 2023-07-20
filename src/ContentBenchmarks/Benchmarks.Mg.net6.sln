@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Mg.Android.net6", "Benchmarks.Mg.Android\Benchmarks.Mg.Android.net6.csproj", "{92B72412-E436-4391-925B-1CCF2DB77EBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Mg.DesktopGL.net6", "Benchmarks.Mg.DesktopGL\Benchmarks.Mg.DesktopGL.net6.csproj", "{8316C8DD-F707-405F-9D77-F2E606F03601}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Mg.WindowsDX.net6", "Benchmarks.Mg.WindowsDX\Benchmarks.Mg.WindowsDX.net6.csproj", "{01D8C778-7DAE-49E8-A66E-506E9EBEF871}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8316C8DD-F707-405F-9D77-F2E606F03601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8316C8DD-F707-405F-9D77-F2E606F03601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8316C8DD-F707-405F-9D77-F2E606F03601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8316C8DD-F707-405F-9D77-F2E606F03601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D8C778-7DAE-49E8-A66E-506E9EBEF871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D8C778-7DAE-49E8-A66E-506E9EBEF871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D8C778-7DAE-49E8-A66E-506E9EBEF871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D8C778-7DAE-49E8-A66E-506E9EBEF871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B72412-E436-4391-925B-1CCF2DB77EBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70C8A6EB-C18B-4AE2-80DA-6BD425EB2601}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{01d8c778-7dae-49e8-a66e-506e9ebef871}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{8316c8dd-f707-405f-9d77-f2e606f03601}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{92b72412-e436-4391-925b-1ccf2db77ebb}*SharedItemsImports = 5
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{efc61fed-dd64-4887-81ba-8a5604ba8c04}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

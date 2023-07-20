@@ -1,0 +1,398 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin BenchmarksSounds/Sound1001.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1001.wav
+
+#begin BenchmarksSounds/Sound1002.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1002.wav
+
+#begin BenchmarksSounds/Sound1003.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1003.wav
+
+#begin BenchmarksSounds/Sound1004.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1004.wav
+
+#begin BenchmarksSounds/Sound1005.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1005.wav
+
+#begin BenchmarksSounds/Sound1006.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1006.wav
+
+#begin BenchmarksSounds/Sound1007.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1007.wav
+
+#begin BenchmarksSounds/Sound1008.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1008.wav
+
+#begin BenchmarksSounds/Sound1009.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1009.wav
+
+#begin BenchmarksSounds/Sound1010.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1010.wav
+
+#begin BenchmarksSounds/Sound1011.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1011.wav
+
+#begin BenchmarksSounds/Sound1012.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1012.wav
+
+#begin BenchmarksSounds/Sound1013.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1013.wav
+
+#begin BenchmarksSounds/Sound1014.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1014.wav
+
+#begin BenchmarksSounds/Sound1015.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1015.wav
+
+#begin BenchmarksSounds/Sound1016.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1016.wav
+
+#begin BenchmarksSounds/Sound1017.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1017.wav
+
+#begin BenchmarksSounds/Sound1018.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1018.wav
+
+#begin BenchmarksSounds/Sound1019.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1019.wav
+
+#begin BenchmarksSounds/Sound1020.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1020.wav
+
+#begin BenchmarksSounds/Sound1021.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1021.wav
+
+#begin BenchmarksSounds/Sound1022.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1022.wav
+
+#begin BenchmarksSounds/Sound1023.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1023.wav
+
+#begin BenchmarksSounds/Sound1024.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1024.wav
+
+#begin BenchmarksSounds/Sound1025.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1025.wav
+
+#begin BenchmarksSounds/Sound1026.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1026.wav
+
+#begin BenchmarksSounds/Sound1027.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1027.wav
+
+#begin BenchmarksSounds/Sound1028.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1028.wav
+
+#begin BenchmarksSounds/Sound1029.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1029.wav
+
+#begin BenchmarksSounds/Sound1030.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1030.wav
+
+#begin BenchmarksSounds/Sound1031.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1031.wav
+
+#begin BenchmarksSounds/Sound1032.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1032.wav
+
+#begin BenchmarksSounds/Sound1033.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1033.wav
+
+#begin BenchmarksSounds/Sound1034.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1034.wav
+
+#begin BenchmarksSounds/Sound1035.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1035.wav
+
+#begin BenchmarksSounds/Sound1036.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1036.wav
+
+#begin BenchmarksSounds/Sound1037.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1037.wav
+
+#begin BenchmarksSounds/Sound1038.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1038.wav
+
+#begin BenchmarksSounds/Sound1039.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1039.wav
+
+#begin BenchmarksSounds/Sound1040.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1040.wav
+
+#begin BenchmarksSounds/Sound1041.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1041.wav
+
+#begin BenchmarksSounds/Sound1042.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1042.wav
+
+#begin BenchmarksSounds/Sound1043.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1043.wav
+
+#begin BenchmarksSounds/Sound1044.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1044.wav
+
+#begin BenchmarksSounds/Sound1045.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1045.wav
+
+#begin BenchmarksSounds/Sound1046.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1046.wav
+
+#begin BenchmarksSounds/Sound1047.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1047.wav
+
+#begin BenchmarksSounds/Sound1048.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1048.wav
+
+#begin BenchmarksSounds/Sound1049.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1049.wav
+
+#begin BenchmarksSounds/Sound1050.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1050.wav
+
+#begin BenchmarksSounds/Sound1051.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1051.wav
+
+#begin BenchmarksSounds/Sound1052.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1052.wav
+
+#begin BenchmarksSounds/Sound1053.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1053.wav
+
+#begin BenchmarksSounds/Sound1054.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1054.wav
+
+#begin BenchmarksSounds/Sound1055.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1055.wav
+
+#begin BenchmarksSounds/Sound1056.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1056.wav
+
+#begin BenchmarksSounds/Sound1057.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1057.wav
+
+#begin BenchmarksSounds/Sound1058.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1058.wav
+
+#begin BenchmarksSounds/Sound1059.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1059.wav
+
+#begin BenchmarksSounds/Sound1060.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1060.wav
+
+#begin BenchmarksSounds/Sound1061.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1061.wav
+
+#begin BenchmarksSounds/Sound1062.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1062.wav
+
+#begin BenchmarksSounds/Sound1063.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1063.wav
+
+#begin BenchmarksSounds/Sound1064.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:BenchmarksSounds/Sound1064.wav
+

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Xna.Windows.net4", "Benchmarks.Xna.Windows\Benchmarks.Xna.Windows.net4.csproj", "{0BB09360-DF68-447D-8B93-7E53CF81AF19}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksContent", "BenchmarksContent\BenchmarksContent.contentproj", "{9FC402CD-CC65-4DEC-A04E-2B0925A47D43}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksFontsContent", "BenchmarksContent\BenchmarksFontsContent.contentproj", "{77173ACA-A00A-4411-942A-EF5B8525D3A6}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksSoundsContent", "BenchmarksContent\BenchmarksSoundsContent.contentproj", "{3F14A756-D92D-45A3-99A9-8FCECC940924}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksTexturesContent", "BenchmarksContent\BenchmarksTexturesContent.contentproj", "{257907FF-B65A-4CA9-AF37-61E46A03D8B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB09360-DF68-447D-8B93-7E53CF81AF19}.Debug|x86.ActiveCfg = Debug|x86
+		{0BB09360-DF68-447D-8B93-7E53CF81AF19}.Debug|x86.Build.0 = Debug|x86
+		{0BB09360-DF68-447D-8B93-7E53CF81AF19}.Release|x86.ActiveCfg = Release|x86
+		{0BB09360-DF68-447D-8B93-7E53CF81AF19}.Release|x86.Build.0 = Release|x86
+		{9FC402CD-CC65-4DEC-A04E-2B0925A47D43}.Debug|x86.ActiveCfg = Debug|x86
+		{9FC402CD-CC65-4DEC-A04E-2B0925A47D43}.Release|x86.ActiveCfg = Release|x86
+		{77173ACA-A00A-4411-942A-EF5B8525D3A6}.Debug|x86.ActiveCfg = Debug|x86
+		{77173ACA-A00A-4411-942A-EF5B8525D3A6}.Release|x86.ActiveCfg = Release|x86
+		{3F14A756-D92D-45A3-99A9-8FCECC940924}.Debug|x86.ActiveCfg = Debug|x86
+		{3F14A756-D92D-45A3-99A9-8FCECC940924}.Release|x86.ActiveCfg = Release|x86
+		{257907FF-B65A-4CA9-AF37-61E46A03D8B3}.Debug|x86.ActiveCfg = Debug|x86
+		{257907FF-B65A-4CA9-AF37-61E46A03D8B3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

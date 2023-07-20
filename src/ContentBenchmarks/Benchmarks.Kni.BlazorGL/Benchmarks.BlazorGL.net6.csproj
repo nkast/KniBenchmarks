@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>Benchmarks</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net6\Kni.BlazorGL\</OutputPath>
+	<BaseIntermediateOutputPath>obj\net6.0\</BaseIntermediateOutputPath>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <MonoGamePlatform>BlazorGL</MonoGamePlatform>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <BlazorEnableTimeZoneSupport>false</BlazorEnableTimeZoneSupport>
+    <DefineConstants>$(DefineConstants);TRACE;BLAZORGL</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Pages\Index.razor.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="nkast.Xna.Framework" Version="3.8.9102" />
+    <PackageReference Include="nkast.Xna.Framework.Blazor" Version="3.8.9102" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.11" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+      <Link>Content\BenchmarksContent.mgcb</Link>
+    </MonoGameContentReference>
+    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksFontsContent.mgcb">
+      <Link>Content\BenchmarksFontsContent.mgcb</Link>
+    </MonoGameContentReference>
+    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksSoundsContent.mgcb">
+      <Link>Content\BenchmarksSoundsContent.mgcb</Link>
+    </MonoGameContentReference>
+    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksTexturesContent.mgcb">
+      <Link>Content\BenchmarksTexturesContent.mgcb</Link>
+    </MonoGameContentReference>
+  </ItemGroup>
+  <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+</Project>
