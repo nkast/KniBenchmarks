@@ -90,7 +90,8 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <PackageReference Include="MonoGame.Framework.WindowsUniversal.9000" Version="3.8.9102" />
+    <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
+    <PackageReference Include="MonoGame.Framework.WindowsUniversal.9000" Version="3.9.9001" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
