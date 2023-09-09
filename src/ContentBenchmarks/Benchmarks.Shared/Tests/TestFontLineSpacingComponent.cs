@@ -43,11 +43,11 @@ namespace Benchmarks
 
             Vector2 pos = new Vector2(16, 16);
             
-            DrawString2(_fontCalibri, "the lazy brown fox jumps over the dog.", pos, Color.White);
+            DrawString2(_fontCalibri, "the quick brown fox jumps over the lazy dog.", pos, Color.White);
             
             pos = new Vector2(16, 80);
             
-            DrawString2(_fontSegoeUI, "the lazy brown fox jumps over the dog.", pos, Color.White);            
+            DrawString2(_fontSegoeUI, "the quick brown fox jumps over the lazy dog.", pos, Color.White);            
             
             _spriteBatch.End();
         }

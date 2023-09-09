@@ -40,7 +40,7 @@ namespace Benchmarks
             {
                 for (int i = 20; i < 480; i += 20)
                 {
-                    _spriteBatch.DrawString(_font, "abcdefghijklmnopqrstuvwxyz1234567890 the lazy brown fox jumps over the dog.", new Vector2(0, i), Color.Black
+                    _spriteBatch.DrawString(_font, "abcdefghijklmnopqrstuvwxyz1234567890 the quick brown fox jumps over the lazy dog.", new Vector2(0, i), Color.Black
                         //,
                         //(float)(_random.NextDouble() * MathHelper.TwoPi), // rotation
                         //new Vector2(_random.Next(64), _random.Next(64)), // origin

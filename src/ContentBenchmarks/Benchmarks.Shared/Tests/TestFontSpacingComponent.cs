@@ -38,9 +38,9 @@ namespace Benchmarks
             Vector2 pos = new Vector2(16, 16);
             
             _spriteBatch.DrawString(_fontSpacing,
-                "the lazy brown fox jumps over the dog.\n" +
-                "the lazy brown fox jumps over the dog.\n" +
-                "the lazy brown fox jumps over the dog.\n",
+                "the quick brown fox jumps over the lazy dog.\n" +
+                "the quick brown fox jumps over the lazy dog.\n" +
+                "the quick brown fox jumps over the lazy dog.\n",
                 pos, Color.White);
             pos.Y += 4 + _fontSpacing.LineSpacing * 3;
             _spriteBatch.End();

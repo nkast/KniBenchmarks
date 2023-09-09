@@ -43,13 +43,13 @@ namespace Benchmarks
 
             Vector2 pos = new Vector2(16, 16);
 
-            _spriteBatch.DrawString(_fontSmoothingNormal, "the lazy brown fox jumps over the dog. - Smoothing: Normal", pos, Color.White);
+            _spriteBatch.DrawString(_fontSmoothingNormal, "the quick brown fox jumps over the lazy dog. - Smoothing: Normal", pos, Color.White);
             pos.Y += 4 + _fontSmoothingNormal.LineSpacing;
-            _spriteBatch.DrawString(_fontSmoothingLight, "the lazy brown fox jumps over the dog. - Smoothing: Light", pos, Color.White);
+            _spriteBatch.DrawString(_fontSmoothingLight, "the quick brown fox jumps over the lazy dog. - Smoothing: Light", pos, Color.White);
             pos.Y += 4 + _fontSmoothingLight.LineSpacing;
-            _spriteBatch.DrawString(_fontSmoothingAutoHint, "the lazy brown fox jumps over the dog. - Smoothing: AutoHint", pos, Color.White);
+            _spriteBatch.DrawString(_fontSmoothingAutoHint, "the quick brown fox jumps over the lazy dog. - Smoothing: AutoHint", pos, Color.White);
             pos.Y += 4 + _fontSmoothingAutoHint.LineSpacing;
-            _spriteBatch.DrawString(_fontSmoothingDisable, "the lazy brown fox jumps over the dog. - Smoothing: Disable", pos, Color.White);
+            _spriteBatch.DrawString(_fontSmoothingDisable, "the quick brown fox jumps over the lazy dog. - Smoothing: Disable", pos, Color.White);
             pos.Y += 4 + _fontSmoothingDisable.LineSpacing;
 
             _spriteBatch.End();

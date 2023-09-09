@@ -37,7 +37,7 @@ namespace Benchmarks
 
             Vector2 pos = new Vector2(16, 16);
             
-            _spriteBatch.DrawString(_fontNoKerning, "the lazy brown fox jumps over the dog.", pos, Color.White);
+            _spriteBatch.DrawString(_fontNoKerning, "the quick brown fox jumps over the lazy dog.", pos, Color.White);
             pos.Y += 4 + _fontNoKerning.LineSpacing;
 
             _spriteBatch.End();
