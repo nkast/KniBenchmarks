@@ -27,6 +27,7 @@ namespace Benchmarks
 
         ContentLoadComponent _contentLoadComponent;
         ContentThreadLoadComponent _contentThreadLoadComponent;
+        ContentMultithreadLoadComponent _contentMultithreadLoadComponent;
         DrawStringComponent _drawStringComponent;
 
 
@@ -85,6 +86,10 @@ namespace Benchmarks
             _contentThreadLoadComponent = new ContentThreadLoadComponent(this);
             _contentThreadLoadComponent.Visible = true;
             //this.Components.Add(_contentThreadLoadComponent);
+
+            _contentMultithreadLoadComponent = new ContentMultithreadLoadComponent(this);
+            _contentMultithreadLoadComponent.Visible = true;
+            //this.Components.Add(_contentMultithreadLoadComponent);
 
             base.Initialize();
         }

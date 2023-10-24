@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BenchmarksGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContentLoadComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContentThreadLoadComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentMultithreadLoadComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawStringComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FpsComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tests\TestComponent.cs" />
