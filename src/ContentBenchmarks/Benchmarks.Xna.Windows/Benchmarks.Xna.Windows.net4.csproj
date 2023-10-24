@@ -75,6 +75,9 @@
     <Compile Include="..\Benchmarks.Shared\ContentLoadComponent.cs">
       <Link>ContentLoadComponent.cs</Link>
     </Compile>
+    <Compile Include="..\Benchmarks.Shared\ContentThreadLoadComponent.cs">
+      <Link>ContentThreadLoadComponent.cs</Link>
+    </Compile>
     <Compile Include="..\Benchmarks.Shared\DrawStringComponent.cs">
       <Link>DrawStringComponent.cs</Link>
     </Compile>

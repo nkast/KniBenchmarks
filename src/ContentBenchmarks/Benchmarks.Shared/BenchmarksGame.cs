@@ -26,6 +26,7 @@ namespace Benchmarks
         TestFontLineSpacingComponent _testFontLineSpacingComponent;
 
         ContentLoadComponent _contentLoadComponent;
+        ContentThreadLoadComponent _contentThreadLoadComponent;
         DrawStringComponent _drawStringComponent;
 
 
@@ -49,9 +50,6 @@ namespace Benchmarks
         {
             // TODO: Add your initialization logic here
 
-            _contentLoadComponent = new ContentLoadComponent(this);
-            _contentLoadComponent.Visible = true;
-            this.Components.Add(_contentLoadComponent);
 
             _drawStringComponent = new DrawStringComponent(this);
             _drawStringComponent.Visible = false;
@@ -79,6 +77,14 @@ namespace Benchmarks
             _fpsComponent = new FpsComponent(this);
             _fpsComponent.DrawOrder = int.MaxValue;
             this.Components.Add(_fpsComponent);
+
+            _contentLoadComponent = new ContentLoadComponent(this);
+            _contentLoadComponent.Visible = true;
+            this.Components.Add(_contentLoadComponent);
+
+            _contentThreadLoadComponent = new ContentThreadLoadComponent(this);
+            _contentThreadLoadComponent.Visible = true;
+            //this.Components.Add(_contentThreadLoadComponent);
 
             base.Initialize();
         }
