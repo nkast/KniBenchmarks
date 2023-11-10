@@ -83,5 +83,5 @@
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
 </Project>
