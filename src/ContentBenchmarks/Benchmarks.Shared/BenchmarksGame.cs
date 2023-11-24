@@ -122,20 +122,18 @@ namespace Benchmarks
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            KeyboardState keyboardState = Keyboard.GetState();
             MouseState mouseState = Mouse.GetState();
-#if BLAZORGL
-            GamePadState gamePadState = default;
-#else
-            GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
-#endif
+            KeyboardState keyboardState = Keyboard.GetState();
+            GamePadState gamePadState = default(GamePadState);
+            try { gamePadState = GamePad.GetState(PlayerIndex.One); }
+            catch (NotImplementedException) { /* ignore gamePadState */ }
 
             if (keyboardState.IsKeyDown(Keys.Escape) ||
                 keyboardState.IsKeyDown(Keys.Back) ||
                 gamePadState.Buttons.Back == ButtonState.Pressed)
             {
                 try { Exit(); }
-                catch (PlatformNotSupportedException ex) { }
+                catch (PlatformNotSupportedException) { /* ignore */ }
             }
 
             // TODO: Add your update logic here
