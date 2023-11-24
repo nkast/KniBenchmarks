@@ -43,12 +43,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
     <PackageReference Include="MonoGame.Framework.WindowsDX.9000" Version="3.9.9001" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />

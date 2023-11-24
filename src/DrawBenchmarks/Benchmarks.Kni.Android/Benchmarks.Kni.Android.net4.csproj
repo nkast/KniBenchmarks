@@ -48,13 +48,15 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
     <PackageReference Include="MonoGame.Framework.Android.9000" Version="3.9.9001" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BenchmarksActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BenchmarksActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -62,19 +64,11 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Values\Strings.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Layout\" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Splash.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
     <AndroidResource Include="Resources\Values\Styles.xml" />
+    <Folder Include="Resources\Layout\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
