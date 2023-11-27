@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net6\Kni.BlazorGL\</OutputPath>
-	<BaseIntermediateOutputPath>obj\net6.0\</BaseIntermediateOutputPath>
+	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>Benchmarks</RootNamespace>

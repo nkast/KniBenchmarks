@@ -20,7 +20,7 @@
     <MandroidI18n />
     <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <OutputPath>..\bin\$(Configuration)\net4\Kni.Android\</OutputPath>
-    <BaseIntermediateOutputPath>obj\monodroid\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\monodroid\</IntermediateOutputPath>
     <MonoGamePlatform>Android</MonoGamePlatform>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>

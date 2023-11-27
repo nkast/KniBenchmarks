@@ -14,7 +14,7 @@
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OutputPath>..\bin\$(Configuration)\net4\Kni.WindowsDX\</OutputPath>
-    <BaseIntermediateOutputPath>obj\net4\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\net4\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -11,7 +11,7 @@
     <AssemblyName>Benchmarks</AssemblyName>
     <OutputPath>..\bin\$(Configuration)\net6\Kni.DesktopGL\</OutputPath>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <BaseIntermediateOutputPath>obj\net6.0\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
     <DefineConstants>$(DefineConstants);DESKTOPGL</DefineConstants>
     <MonoGamePlatform>DesktopGL</MonoGamePlatform>
   </PropertyGroup>
