@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <EnableDefaultItems>false</EnableDefaultItems>
-    <TargetFramework>net6.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
+    <TargetFramework>net8.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
     <RootNamespace>Benchmarks</RootNamespace>
     <AssemblyName>Benchmarks</AssemblyName>

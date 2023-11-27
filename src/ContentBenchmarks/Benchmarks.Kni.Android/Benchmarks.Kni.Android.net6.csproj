@@ -1,17 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <EnableDefaultItems>false</EnableDefaultItems>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net6\Kni.Android\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
-    <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
-    <OutputType>Exe</OutputType>
     <MonoGamePlatform>Android</MonoGamePlatform>
     <ApplicationId>com.companyname.Benchmarks</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
     <PackageReference Include="MonoGame.Framework.Android.9000" Version="3.9.9001" />
@@ -21,17 +22,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Values\Strings.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Splash.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
     <AndroidResource Include="Resources\Values\Styles.xml" />
   </ItemGroup>
   <ItemGroup>

@@ -1,10 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net6\Mg.Android\</OutputPath>
 	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
-    <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
     <OutputType>Exe</OutputType>
     <ApplicationId>com.companyname.Benchmarks</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
