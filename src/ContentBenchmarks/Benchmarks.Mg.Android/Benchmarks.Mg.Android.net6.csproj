@@ -21,15 +21,6 @@
     <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\Content.mgcb</Link>
     </MonoGameContentReference>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksFontsContent.mgcb">
-      <Link>Content\BenchmarksFontsContent.mgcb</Link>
-    </MonoGameContentReference>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksSoundsContent.mgcb">
-      <Link>Content\BenchmarksSoundsContent.mgcb</Link>
-    </MonoGameContentReference>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksTexturesContent.mgcb">
-      <Link>Content\BenchmarksTexturesContent.mgcb</Link>
-    </MonoGameContentReference>
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
