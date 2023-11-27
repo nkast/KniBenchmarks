@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.Android.net6", "Benchmarks.Kni.Android\Benchmarks.Kni.Android.net6.csproj", "{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.Android.net8", "Benchmarks.Kni.Android\Benchmarks.Kni.Android.net8.csproj", "{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.WindowsDX.net6", "Benchmarks.Kni.WindowsDX\Benchmarks.Kni.WindowsDX.net6.csproj", "{2F771463-A953-4520-AC0E-986009AAD47A}"
 EndProject
