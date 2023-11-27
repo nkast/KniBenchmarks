@@ -1,0 +1,398 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin BenchmarksEffects/Effect1001.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1001.fx
+
+#begin BenchmarksEffects/Effect1002.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1002.fx
+
+#begin BenchmarksEffects/Effect1003.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1003.fx
+
+#begin BenchmarksEffects/Effect1004.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1004.fx
+
+#begin BenchmarksEffects/Effect1005.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1005.fx
+
+#begin BenchmarksEffects/Effect1006.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1006.fx
+
+#begin BenchmarksEffects/Effect1007.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1007.fx
+
+#begin BenchmarksEffects/Effect1008.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1008.fx
+
+#begin BenchmarksEffects/Effect1009.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1009.fx
+
+#begin BenchmarksEffects/Effect1010.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1010.fx
+
+#begin BenchmarksEffects/Effect1011.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1011.fx
+
+#begin BenchmarksEffects/Effect1012.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1012.fx
+
+#begin BenchmarksEffects/Effect1013.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1013.fx
+
+#begin BenchmarksEffects/Effect1014.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1014.fx
+
+#begin BenchmarksEffects/Effect1015.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1015.fx
+
+#begin BenchmarksEffects/Effect1016.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1016.fx
+
+#begin BenchmarksEffects/Effect1017.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1017.fx
+
+#begin BenchmarksEffects/Effect1018.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1018.fx
+
+#begin BenchmarksEffects/Effect1019.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1019.fx
+
+#begin BenchmarksEffects/Effect1020.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1020.fx
+
+#begin BenchmarksEffects/Effect1021.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1021.fx
+
+#begin BenchmarksEffects/Effect1022.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1022.fx
+
+#begin BenchmarksEffects/Effect1023.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1023.fx
+
+#begin BenchmarksEffects/Effect1024.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1024.fx
+
+#begin BenchmarksEffects/Effect1025.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1025.fx
+
+#begin BenchmarksEffects/Effect1026.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1026.fx
+
+#begin BenchmarksEffects/Effect1027.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1027.fx
+
+#begin BenchmarksEffects/Effect1028.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1028.fx
+
+#begin BenchmarksEffects/Effect1029.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1029.fx
+
+#begin BenchmarksEffects/Effect1030.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1030.fx
+
+#begin BenchmarksEffects/Effect1031.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1031.fx
+
+#begin BenchmarksEffects/Effect1032.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1032.fx
+
+#begin BenchmarksEffects/Effect1033.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1033.fx
+
+#begin BenchmarksEffects/Effect1034.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1034.fx
+
+#begin BenchmarksEffects/Effect1035.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1035.fx
+
+#begin BenchmarksEffects/Effect1036.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1036.fx
+
+#begin BenchmarksEffects/Effect1037.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1037.fx
+
+#begin BenchmarksEffects/Effect1038.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1038.fx
+
+#begin BenchmarksEffects/Effect1039.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1039.fx
+
+#begin BenchmarksEffects/Effect1040.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1040.fx
+
+#begin BenchmarksEffects/Effect1041.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1041.fx
+
+#begin BenchmarksEffects/Effect1042.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1042.fx
+
+#begin BenchmarksEffects/Effect1043.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1043.fx
+
+#begin BenchmarksEffects/Effect1044.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1044.fx
+
+#begin BenchmarksEffects/Effect1045.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1045.fx
+
+#begin BenchmarksEffects/Effect1046.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1046.fx
+
+#begin BenchmarksEffects/Effect1047.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1047.fx
+
+#begin BenchmarksEffects/Effect1048.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1048.fx
+
+#begin BenchmarksEffects/Effect1049.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1049.fx
+
+#begin BenchmarksEffects/Effect1050.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1050.fx
+
+#begin BenchmarksEffects/Effect1051.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1051.fx
+
+#begin BenchmarksEffects/Effect1052.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1052.fx
+
+#begin BenchmarksEffects/Effect1053.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1053.fx
+
+#begin BenchmarksEffects/Effect1054.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1054.fx
+
+#begin BenchmarksEffects/Effect1055.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1055.fx
+
+#begin BenchmarksEffects/Effect1056.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1056.fx
+
+#begin BenchmarksEffects/Effect1057.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1057.fx
+
+#begin BenchmarksEffects/Effect1058.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1058.fx
+
+#begin BenchmarksEffects/Effect1059.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1059.fx
+
+#begin BenchmarksEffects/Effect1060.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1060.fx
+
+#begin BenchmarksEffects/Effect1061.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1061.fx
+
+#begin BenchmarksEffects/Effect1062.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1062.fx
+
+#begin BenchmarksEffects/Effect1063.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1063.fx
+
+#begin BenchmarksEffects/Effect1064.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:BenchmarksEffects/Effect1064.fx
+

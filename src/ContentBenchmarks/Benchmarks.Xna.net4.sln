@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Xna.Windows.net4
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksContent", "BenchmarksContent\BenchmarksContent.contentproj", "{9FC402CD-CC65-4DEC-A04E-2B0925A47D43}"
 EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksEffectsContent", "BenchmarksContent\BenchmarksEffectsContent.contentproj", "{B3AC2389-9F5F-4ABA-A54D-7B38871726CF}"
+EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksFontsContent", "BenchmarksContent\BenchmarksFontsContent.contentproj", "{77173ACA-A00A-4411-942A-EF5B8525D3A6}"
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksSoundsContent", "BenchmarksContent\BenchmarksSoundsContent.contentproj", "{3F14A756-D92D-45A3-99A9-8FCECC940924}"
@@ -25,6 +27,8 @@ Global
 		{9FC402CD-CC65-4DEC-A04E-2B0925A47D43}.Release|x86.ActiveCfg = Release|x86
 		{77173ACA-A00A-4411-942A-EF5B8525D3A6}.Debug|x86.ActiveCfg = Debug|x86
 		{77173ACA-A00A-4411-942A-EF5B8525D3A6}.Release|x86.ActiveCfg = Release|x86
+		{B3AC2389-9F5F-4ABA-A54D-7B38871726CF}.Debug|x86.ActiveCfg = Debug|x86
+		{B3AC2389-9F5F-4ABA-A54D-7B38871726CF}.Release|x86.ActiveCfg = Release|x86
 		{3F14A756-D92D-45A3-99A9-8FCECC940924}.Debug|x86.ActiveCfg = Debug|x86
 		{3F14A756-D92D-45A3-99A9-8FCECC940924}.Release|x86.ActiveCfg = Release|x86
 		{257907FF-B65A-4CA9-AF37-61E46A03D8B3}.Debug|x86.ActiveCfg = Debug|x86

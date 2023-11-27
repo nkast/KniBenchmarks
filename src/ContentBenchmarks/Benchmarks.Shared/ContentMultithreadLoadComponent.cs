@@ -20,6 +20,7 @@ namespace Benchmarks
         ConcurrentBag<SpriteFont> _spriteFonts = new ConcurrentBag<SpriteFont>();
         ConcurrentBag<SoundEffect> _soundEffects = new ConcurrentBag<SoundEffect>();
         ConcurrentBag<Texture2D> _textures = new ConcurrentBag<Texture2D>();
+        ConcurrentBag<Effect> _effects = new ConcurrentBag<Effect>();
         Stopwatch _sw = new Stopwatch();
         TimeSpan _loadTime;
         String _strLoadTime;
@@ -54,6 +55,7 @@ namespace Benchmarks
                     _spriteFonts.Add(content.Load<SpriteFont>("BenchmarksFonts\\Font" + num));
                     _soundEffects.Add(content.Load<SoundEffect>("BenchmarksSounds\\Sound" + num));
                     _textures.Add(content.Load<Texture2D>("BenchmarksTextures\\Tx" + num));
+                    _effects.Add(content.Load<Effect>("BenchmarksEffects\\Effect" + num));
                 });
             });
 
