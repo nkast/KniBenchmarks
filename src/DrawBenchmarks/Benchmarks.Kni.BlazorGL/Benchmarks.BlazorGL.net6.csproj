@@ -11,7 +11,7 @@
     <RootNamespace>Benchmarks</RootNamespace>
     <AssemblyName>Benchmarks</AssemblyName>
     <DefineConstants>$(DefineConstants);BLAZORGL</DefineConstants>
-    <MonoGamePlatform>BlazorGL</MonoGamePlatform>
+    <KniPlatform>BlazorGL</KniPlatform>
   </PropertyGroup>
   
   <PropertyGroup>
@@ -24,17 +24,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
-    <PackageReference Include="nkast.Xna.Framework.Blazor" Version="3.9.9001" />
+    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
+    <PackageReference Include="nkast.Xna.Framework.Blazor" Version="3.10.9001" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.11" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
-    </MonoGameContentReference>
+    </KniContentReference>
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>

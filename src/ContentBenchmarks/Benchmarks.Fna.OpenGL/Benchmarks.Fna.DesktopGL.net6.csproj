@@ -9,7 +9,7 @@
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
-    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+    <KniPlatform>DesktopGL</KniPlatform>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -21,9 +21,9 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
-    </MonoGameContentReference>
+    </KniContentReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="FNA23.07\fnalibs\x64\SDL2.dll">
@@ -44,5 +44,5 @@
     </None>
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>

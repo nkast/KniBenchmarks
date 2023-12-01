@@ -21,7 +21,7 @@
     <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <OutputPath>..\bin\$(Configuration)\net4\Kni.Android\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\monodroid\</IntermediateOutputPath>
-    <MonoGamePlatform>Android</MonoGamePlatform>
+    <KniPlatform>Android</KniPlatform>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -48,8 +48,8 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
-    <PackageReference Include="MonoGame.Framework.Android.9000" Version="3.9.9001" />
+    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
+    <PackageReference Include="MonoGame.Framework.Android.9000" Version="3.10.9001" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BenchmarksActivity.cs" />
@@ -77,11 +77,11 @@
     <AndroidResource Include="Resources\Values\Styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
-    </MonoGameContentReference>
+    </KniContentReference>
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>

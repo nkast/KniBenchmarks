@@ -19,7 +19,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>Benchmarks_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <MonoGamePlatform>WindowsStoreApp</MonoGamePlatform>
+    <KniPlatform>WindowsStoreApp</KniPlatform>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -89,8 +89,8 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
-    <PackageReference Include="MonoGame.Framework.WindowsUniversal.9000" Version="3.9.9001" />
+    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
+    <PackageReference Include="MonoGame.Framework.WindowsUniversal.9000" Version="3.10.9001" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -113,9 +113,9 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
-    </MonoGameContentReference>
+    </KniContentReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
@@ -127,5 +127,5 @@
   </PropertyGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>

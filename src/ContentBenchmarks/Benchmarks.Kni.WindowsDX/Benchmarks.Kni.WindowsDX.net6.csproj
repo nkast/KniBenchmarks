@@ -10,7 +10,7 @@
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
     <UseWindowsForms>true</UseWindowsForms>
-    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <KniPlatform>Windows</KniPlatform>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -20,14 +20,14 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="nkast.Xna.Framework" Version="3.9.9001" />
-    <PackageReference Include="MonoGame.Framework.WindowsDX.9000" Version="3.9.9001" />
+    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
+    <PackageReference Include="MonoGame.Framework.WindowsDX.9000" Version="3.10.9001" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
-    </MonoGameContentReference>
+    </KniContentReference>
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>
