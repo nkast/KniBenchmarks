@@ -16,8 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
-    <PackageReference Include="MonoGame.Framework.Android.9000" Version="3.10.9001" />
+    <ProjectReference Include="X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj" />
+    <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.Android.netcore.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BenchmarksActivity.cs" />

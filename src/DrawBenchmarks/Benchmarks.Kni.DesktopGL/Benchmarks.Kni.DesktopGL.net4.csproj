@@ -44,8 +44,14 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
-    <PackageReference Include="MonoGame.Framework.DesktopGL.9000" Version="3.10.9001" />
+    <ProjectReference Include="X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj">
+      <Project>{741b4b1e-89e4-434c-8867-6129838afd51}</Project>
+      <Name>Xna.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.DesktopGL.csproj">
+      <Project>{6d75e618-19ca-4c51-9546-f10965fbc0b8}</Project>
+      <Name>XNA.Framework.DesktopGL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
