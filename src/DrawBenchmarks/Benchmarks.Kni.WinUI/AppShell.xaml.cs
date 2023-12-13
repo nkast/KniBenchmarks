@@ -1,4 +1,6 @@
-﻿namespace Benchmarks
+﻿using Microsoft.Maui.Controls;
+
+namespace Benchmarks
 {
     public partial class AppShell : Shell
     {
