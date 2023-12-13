@@ -53,6 +53,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI3.csproj" />
     <ProjectReference Include="X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj" />
   </ItemGroup>
 
@@ -64,4 +65,5 @@
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
   </PropertyGroup>
+  <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
 </Project>
