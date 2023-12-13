@@ -1,4 +1,7 @@
-﻿namespace Benchmarks
+﻿using System;
+using Microsoft.Maui.Controls;
+
+namespace Benchmarks
 {
     public partial class MainPage : ContentPage
     {
