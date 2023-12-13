@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
@@ -11,9 +10,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.WindowsDX.ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.DesktopGL.net4", "Benchmarks.Kni.DesktopGL\Benchmarks.Kni.DesktopGL.net4.csproj", "{B7BB9284-D79D-4CCD-9B4C-9E54536DDA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.UWP.Xaml.net4", "Benchmarks.Kni.UWP.Xaml\Benchmarks.Kni.UWP.Xaml.net4.csproj", "{A18554DC-9EBF-4102-8766-9EBB69A7C7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.UWP.Xaml.net4", "Benchmarks.Kni.UWP.Xaml\Benchmarks.Kni.UWP.Xaml.net4.csproj", "{A18554DC-9EBF-4102-8766-9EBB69A7C7F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.UWP.Core.net4", "Benchmarks.Kni.UWP.Core\Benchmarks.Kni.UWP.Core.net4.csproj", "{584EBC20-AE19-4945-93EF-C5080F6D9893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xna.Framework", "X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj", "{741B4B1E-89E4-434C-8867-6129838AFD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA.Framework.DesktopGL", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.DesktopGL.csproj", "{6D75E618-19CA-4C51-9546-F10965FBC0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA.Framework.Android", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.Android.csproj", "{BA9476CF-99BA-4D03-92F2-73D2C5E58883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA.Framework.WindowsDX11", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WindowsDX11.csproj", "{7DE47032-A904-4C29-BD22-2D235E8D91BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNA.Framework.UAP", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.UAP.csproj", "{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -142,7 +151,7 @@ Global
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{0aa717d8-f032-40ab-b518-25cecfd2d7fc}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{584ebc20-ae19-4945-93ef-c5080f6d9893}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{60296060-2810-417a-8ce9-9f59c5e05b60}*SharedItemsImports = 4
-		Benchmarks.Shared\Benchmarks.Shared.projitems*{a18554dc-9ebf-4102-8766-9ebb69a7c7f3}*SharedItemsImports = 4
+		Benchmarks.Shared\Benchmarks.Shared.projitems*{a18554dc-9ebf-4102-8766-9ebb69a7c7f3}*SharedItemsImports = 5
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{b7bb9284-d79d-4ccd-9b4c-9e54536dda9f}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{efc61fed-dd64-4887-81ba-8a5604ba8c04}*SharedItemsImports = 13
 	EndGlobalSection
