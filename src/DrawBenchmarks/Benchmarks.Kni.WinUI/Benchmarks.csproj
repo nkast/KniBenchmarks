@@ -63,6 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\MauiLib1\MauiLib1.csproj" />
 	  <ProjectReference Include="X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj" />
 	</ItemGroup>
 
