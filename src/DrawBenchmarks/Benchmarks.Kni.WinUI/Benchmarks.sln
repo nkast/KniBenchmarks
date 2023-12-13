@@ -7,11 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Benchmarks.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xna.Framework", "X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj", "{741B4B1E-89E4-434C-8867-6129838AFD51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA.Framework.UAP", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.UAP.csproj", "{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNA.Framework.WinUI", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI.csproj", "{49891ACA-8D00-4987-9028-52D11C71342C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiLib1", "..\MauiLib1\MauiLib1.csproj", "{B16EFFF1-867B-4460-B151-8545A2B0E7C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,18 +25,10 @@ Global
 		{741B4B1E-89E4-434C-8867-6129838AFD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09C41A48-7BF3-4A46-9EB8-CE95B4C27CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49891ACA-8D00-4987-9028-52D11C71342C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49891ACA-8D00-4987-9028-52D11C71342C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49891ACA-8D00-4987-9028-52D11C71342C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49891ACA-8D00-4987-9028-52D11C71342C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B16EFFF1-867B-4460-B151-8545A2B0E7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B16EFFF1-867B-4460-B151-8545A2B0E7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B16EFFF1-867B-4460-B151-8545A2B0E7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B16EFFF1-867B-4460-B151-8545A2B0E7C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
