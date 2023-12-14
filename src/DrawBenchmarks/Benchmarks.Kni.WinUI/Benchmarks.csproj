@@ -53,7 +53,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI3.csproj" />
+    <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI.csproj" />
     <ProjectReference Include="X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj" />
   </ItemGroup>
 
