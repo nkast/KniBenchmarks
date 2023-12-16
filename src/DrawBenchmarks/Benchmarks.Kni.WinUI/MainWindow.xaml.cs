@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -23,15 +24,18 @@ namespace Benchmarks
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        //readonly BenchmarksGame _game;
+        readonly BenchmarksGame _game;
 
-        public MainWindow()
+        public MainWindow() : base()
         {
             this.InitializeComponent();
 
             // Create the game.
             string launchArguments = String.Empty;
-            //_game = MonoGame.Framework.XamlGame<BenchmarksGame>.Create(launchArguments, Window.Current.CoreWindow, swapChainPanel);
+            AppWindow appWindow = AppWindow.Create();
+            var window = this;
+            //var coreWindow = Window.Current.CoreWindow;
+           _game = MonoGame.Framework.XamlGame<BenchmarksGame>.Create(launchArguments, appWindow, window, this.swapChainPanel);
 
         }
     }

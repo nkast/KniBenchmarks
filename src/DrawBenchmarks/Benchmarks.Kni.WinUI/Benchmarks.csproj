@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <EnableDefaultItems>false</EnableDefaultItems>
+    <!--<EnableDefaultItems>false</EnableDefaultItems>-->
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <RootNamespace>Benchmarks</RootNamespace>
     <AssemblyName>Benchmarks</AssemblyName>
@@ -14,9 +14,6 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="App.xaml.cs" />
-    <Compile Include="MainWindow.xaml.cs" />
-    <Compile Include="Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,13 +41,7 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </ApplicationDefinition>
-    <None Include="app.manifest" />
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+  
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI.csproj" />
