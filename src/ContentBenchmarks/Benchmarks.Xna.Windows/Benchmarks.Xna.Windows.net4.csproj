@@ -119,6 +119,11 @@
       <Name>BenchmarksContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
+    <ProjectReference Include="..\BenchmarksContent\BenchmarksEffectsContent.contentproj">
+      <Project>{B3AC2389-9F5F-4ABA-A54D-7B38871726CF}</Project>
+      <Name>BenchmarksEffectsContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
     <ProjectReference Include="..\BenchmarksContent\BenchmarksFontsContent.contentproj">
       <Project>{77173ACA-A00A-4411-942A-EF5B8525D3A6}</Project>
       <Name>BenchmarksFontsContent %28Content%29</Name>
