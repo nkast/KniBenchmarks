@@ -4,6 +4,7 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <TargetFramework>net8.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+    <IsAotCompatible>True</IsAotCompatible>
     <RootNamespace>Benchmarks</RootNamespace>
     <AssemblyName>Benchmarks</AssemblyName>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
