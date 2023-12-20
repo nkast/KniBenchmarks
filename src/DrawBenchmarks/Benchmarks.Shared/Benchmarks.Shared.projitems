@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)DrawSpriteComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawSpritesComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawStringComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SimpleAnimationComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FpsComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tests\TestComponent.cs" />
   </ItemGroup>
