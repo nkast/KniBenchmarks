@@ -118,7 +118,7 @@ namespace Benchmarks
         {
             MouseState mouseState = Mouse.GetState();
             KeyboardState keyboardState = Keyboard.GetState();
-            GamePadState gamePadState = default;
+            GamePadState gamePadState = default(GamePadState);
             try { gamePadState = GamePad.GetState(PlayerIndex.One); }
             catch (NotImplementedException) { /* ignore gamePadState */ }
 
