@@ -32,8 +32,8 @@ namespace Benchmarks
         {
             _spriteBatch.Begin(SortMode, null);
 
-            Vector2 txCenter = _tx.Bounds.Center.ToVector2();
-            Vector2 vpCenter = GraphicsDevice.Viewport.Bounds.Center.ToVector2();
+            Vector2 txCenter = new Vector2(_tx.Bounds.Center.X, _tx.Bounds.Center.Y);
+            Vector2 vpCenter = new Vector2(GraphicsDevice.Viewport.Bounds.Center.X, GraphicsDevice.Viewport.Bounds.Center.Y);
             float x = (vpCenter.X - txCenter.X) * (float)Math.Cos(gameTime.TotalGameTime.TotalSeconds * Math.PI/2);
 
             _spriteBatch.Draw(_tx, vpCenter + new Vector2(x, 0), null, Color.White,

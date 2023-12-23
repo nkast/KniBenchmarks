@@ -81,6 +81,9 @@
     <Compile Include="..\Benchmarks.Shared\DrawStringComponent.cs">
       <Link>DrawStringComponent.cs</Link>
     </Compile>
+    <Compile Include="..\Benchmarks.Shared\SimpleAnimationComponent.cs">
+      <Link>SimpleAnimationComponent.cs</Link>
+    </Compile>
     <Compile Include="..\Benchmarks.Shared\Tests\TestComponent.cs">
       <Link>TestComponent.cs</Link>
     </Compile>
