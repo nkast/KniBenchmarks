@@ -26,6 +26,10 @@
     </KniContentReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.10.9001-rc" />
+  </ItemGroup>
+	
+  <ItemGroup>
     <None Include="FNA23.07\fnalibs\x64\SDL2.dll">
       <Link>SDL2.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -44,5 +48,4 @@
     </None>
   </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\Kni.Content.Builder.targets" />
 </Project>
