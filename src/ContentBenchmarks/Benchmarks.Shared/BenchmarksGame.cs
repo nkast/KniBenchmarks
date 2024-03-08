@@ -24,6 +24,7 @@ namespace Benchmarks
         TestFontSmoothingComponent _testFontSmoothingComponent;
         TestFontSpacingComponent _testFontSpacingComponent;
         TestFontLineSpacingComponent _testFontLineSpacingComponent;
+        TestFontStyleComponent _testFontStyleComponent;
 
         ContentLoadComponent _contentLoadComponent;
         ContentThreadLoadComponent _contentThreadLoadComponent;
@@ -74,6 +75,10 @@ namespace Benchmarks
             _testFontLineSpacingComponent = new TestFontLineSpacingComponent(this);
             _testFontLineSpacingComponent.Visible = false;
             this.Components.Add(_testFontLineSpacingComponent);
+
+            _testFontStyleComponent = new TestFontStyleComponent(this);
+            _testFontStyleComponent.Visible = false;
+            this.Components.Add(_testFontStyleComponent);
 
             _fpsComponent = new FpsComponent(this);
             _fpsComponent.DrawOrder = int.MaxValue;

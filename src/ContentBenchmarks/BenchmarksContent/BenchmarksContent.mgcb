@@ -96,6 +96,38 @@
 /processorParam:Smoothing=Normal
 /build:SpriteTests/FontSegoeUI.spritefont
 
+#begin SpriteTests/FontStyleBold.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/processorParam:Smoothing=Normal
+/build:SpriteTests/FontStyleBold.spritefont
+
+#begin SpriteTests/FontStyleBoldItalic.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/processorParam:Smoothing=Normal
+/build:SpriteTests/FontStyleBoldItalic.spritefont
+
+#begin SpriteTests/FontStyleItalic.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/processorParam:Smoothing=Normal
+/build:SpriteTests/FontStyleItalic.spritefont
+
+#begin SpriteTests/FontStyleRegular.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/processorParam:Smoothing=Normal
+/build:SpriteTests/FontStyleRegular.spritefont
+
 # Fonts
 
 #begin BenchmarksFonts/Font1001.spritefont

@@ -20,5 +20,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Tests\TestFontSmoothingComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tests\TestFontSpacingComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tests\TestFontLineSpacingComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\TestFontStyleComponent.cs" />
   </ItemGroup>
 </Project>

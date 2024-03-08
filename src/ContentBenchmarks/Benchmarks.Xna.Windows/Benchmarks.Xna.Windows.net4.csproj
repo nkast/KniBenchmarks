@@ -99,6 +99,9 @@
     <Compile Include="..\Benchmarks.Shared\Tests\TestFontLineSpacingComponent.cs">
       <Link>TestFontLineSpacingComponent.cs</Link>
     </Compile>
+    <Compile Include="..\Benchmarks.Shared\Tests\TestFontStyleComponent.cs">
+      <Link>TestFontStyleComponent.cs</Link>
+    </Compile>    
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="..\Benchmarks.Shared\BenchmarksGame.cs">
