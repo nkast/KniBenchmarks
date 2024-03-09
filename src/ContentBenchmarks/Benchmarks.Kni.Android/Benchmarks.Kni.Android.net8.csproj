@@ -4,6 +4,8 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <TargetFramework>net8.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+    <RootNamespace>Benchmarks</RootNamespace>
+    <AssemblyName>Benchmarks</AssemblyName>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net8\Kni.Android\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
@@ -11,6 +13,10 @@
     <ApplicationId>com.companyname.Benchmarks</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
 
   <ItemGroup>
