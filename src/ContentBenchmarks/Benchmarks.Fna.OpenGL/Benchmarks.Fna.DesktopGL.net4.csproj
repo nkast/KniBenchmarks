@@ -57,7 +57,7 @@
     </KniContentReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.10.9001-rc" />
+    <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.11.9001" />
   </ItemGroup>
 	
   <ItemGroup>
