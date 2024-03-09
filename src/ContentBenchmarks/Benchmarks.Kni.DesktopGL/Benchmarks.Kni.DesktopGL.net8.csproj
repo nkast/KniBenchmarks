@@ -9,6 +9,8 @@
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
+    <PublishTrimmed>True</PublishTrimmed>
+    <PublishAot>True</PublishAot>
     <KniPlatform>DesktopGL</KniPlatform>
   </PropertyGroup>
   <PropertyGroup>
