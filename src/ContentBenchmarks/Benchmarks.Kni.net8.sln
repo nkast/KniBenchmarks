@@ -5,11 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.Android.net8", "Benchmarks.Kni.Android\Benchmarks.Kni.Android.net8.csproj", "{71C19B9E-A73D-4381-B04A-4C530BCB9D6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.WindowsDX.net6", "Benchmarks.Kni.WindowsDX\Benchmarks.Kni.WindowsDX.net6.csproj", "{2F771463-A953-4520-AC0E-986009AAD47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.WindowsDX.net8", "Benchmarks.Kni.WindowsDX\Benchmarks.Kni.WindowsDX.net8.csproj", "{2F771463-A953-4520-AC0E-986009AAD47A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.DesktopGL.net6", "Benchmarks.Kni.DesktopGL\Benchmarks.Kni.DesktopGL.net6.csproj", "{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Kni.DesktopGL.net8", "Benchmarks.Kni.DesktopGL\Benchmarks.Kni.DesktopGL.net8.csproj", "{1CB8D8C7-5686-4876-9CA4-75C6FB22567D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.BlazorGL.net6", "Benchmarks.Kni.BlazorGL\Benchmarks.BlazorGL.net6.csproj", "{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.BlazorGL.net8", "Benchmarks.Kni.BlazorGL\Benchmarks.BlazorGL.net8.csproj", "{770E7E53-F40D-47A6-AC4E-E3E2330FFD9E}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
 EndProject

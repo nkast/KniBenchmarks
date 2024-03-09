@@ -2,8 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0-android</TargetFramework>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\bin\$(Configuration)\net6\Mg.Android\</OutputPath>
-	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Mg.Android\</OutputPath>
+	<IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
     <OutputType>Exe</OutputType>
     <ApplicationId>com.companyname.Benchmarks</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>

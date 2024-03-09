@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="BenchmarksMgNet6.Benchmarks" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="BenchmarksMgNet8.Benchmarks" android:versionCode="1" android:versionName="1.0">
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-  <application android:label="BenchmarksMgNet6"></application>
+  <application android:label="BenchmarksMgNet8"></application>
 </manifest>

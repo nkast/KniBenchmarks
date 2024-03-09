@@ -1,27 +1,27 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <EnableDefaultItems>false</EnableDefaultItems>
-    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Kni.DesktopGL\</OutputPath>
+	<IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>Benchmarks</RootNamespace>
-    <AssemblyName>Benchmarks</AssemblyName>
-    <OutputPath>..\bin\$(Configuration)\net6\Kni.DesktopGL\</OutputPath>
-    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
-    <DefineConstants>$(DefineConstants);DESKTOPGL</DefineConstants>
     <KniPlatform>DesktopGL</KniPlatform>
-  </PropertyGroup>
-  
-  <PropertyGroup>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="3.11.9002" />
     <PackageReference Include="nkast.Xna.Framework.Content" Version="3.11.9002" />
@@ -30,13 +30,6 @@
     <PackageReference Include="nkast.Xna.Framework.Media" Version="3.11.9002" />
     <PackageReference Include="MonoGame.Framework.DesktopGL.9000" Version="3.11.9002" />
     <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.11.9002" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Program.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Icon.ico" />
-    <EmbeddedResource Include="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
     <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">

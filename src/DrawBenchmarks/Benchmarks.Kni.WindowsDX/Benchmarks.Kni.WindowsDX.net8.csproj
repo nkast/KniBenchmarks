@@ -1,24 +1,27 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <EnableDefaultItems>false</EnableDefaultItems>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\bin\$(Configuration)\net6\Kni.WindowsDX\</OutputPath>
-	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <RollForward>Major</RollForward>
+    <UseWindowsForms>true</UseWindowsForms>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
-    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Benchmarks</RootNamespace>
+    <AssemblyName>Benchmarks</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Kni.WindowsDX\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
     <KniPlatform>Windows</KniPlatform>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Program.cs" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="3.11.9002" />
     <PackageReference Include="nkast.Xna.Framework.Content" Version="3.11.9002" />
@@ -27,6 +30,9 @@
     <PackageReference Include="nkast.Xna.Framework.Media" Version="3.11.9002" />
     <PackageReference Include="MonoGame.Framework.WindowsDX.9000" Version="3.11.9002" />
     <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.11.9002" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">

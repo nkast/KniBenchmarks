@@ -2,10 +2,10 @@
   <PropertyGroup>
     <EnableDefaultItems>false</EnableDefaultItems>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\bin\$(Configuration)\net6\Fna.DesktopGL\</OutputPath>
-	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Fna.DesktopGL\</OutputPath>
+	<IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>

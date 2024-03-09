@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\bin\$(Configuration)\net6\Kni.BlazorGL\</OutputPath>
-	<IntermediateOutputPath>obj\$(Configuration)\net6.0\</IntermediateOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Kni.BlazorGL\</OutputPath>
+	<IntermediateOutputPath>obj\$(Configuration)\net8.0\</IntermediateOutputPath>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>Benchmarks</RootNamespace>

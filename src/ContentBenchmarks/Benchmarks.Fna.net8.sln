@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Fna.DesktopGL.net6", "Benchmarks.Fna.OpenGL\Benchmarks.Fna.DesktopGL.net6.csproj", "{708E6AD0-770C-4222-B0E5-9A95033A6747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.Fna.DesktopGL.net8", "Benchmarks.Fna.OpenGL\Benchmarks.Fna.DesktopGL.net8.csproj", "{708E6AD0-770C-4222-B0E5-9A95033A6747}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
 EndProject
