@@ -4,6 +4,8 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <TargetFramework>net8.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+    <IsTrimmable>True</IsTrimmable>
+	<TrimMode>partial</TrimMode>
     <RootNamespace>Benchmarks</RootNamespace>
     <AssemblyName>Benchmarks</AssemblyName>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
