@@ -13,8 +13,8 @@
     <PublishTrimmed>False</PublishTrimmed>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.Android" Version="3.8.1.303" />
-    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Framework.Android" Version="3.8.2.1105" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.2.1105" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
