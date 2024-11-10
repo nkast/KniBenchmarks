@@ -13,6 +13,8 @@ Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksSoundsContent", "
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksTexturesContent", "BenchmarksContent\BenchmarksTexturesContent.contentproj", "{257907FF-B65A-4CA9-AF37-61E46A03D8B3}"
 EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BenchmarksModelsContent", "BenchmarksContent\BenchmarksModelsContent.contentproj", "{102A1C09-DCB8-492A-9EE9-49AB0AF129FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,6 +35,8 @@ Global
 		{3F14A756-D92D-45A3-99A9-8FCECC940924}.Release|x86.ActiveCfg = Release|x86
 		{257907FF-B65A-4CA9-AF37-61E46A03D8B3}.Debug|x86.ActiveCfg = Debug|x86
 		{257907FF-B65A-4CA9-AF37-61E46A03D8B3}.Release|x86.ActiveCfg = Release|x86
+		{102A1C09-DCB8-492A-9EE9-49AB0AF129FF}.Debug|x86.ActiveCfg = Debug|x86
+		{102A1C09-DCB8-492A-9EE9-49AB0AF129FF}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

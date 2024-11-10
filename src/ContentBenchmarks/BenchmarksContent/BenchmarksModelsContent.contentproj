@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{102A1C09-DCB8-492A-9EE9-49AB0AF129FF}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BenchmarksModelsContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BenchmarksModels\Model1001.fbx">
+      <Name>Tx1001</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1002.fbx">
+      <Name>Tx1002</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1003.fbx">
+      <Name>Tx1003</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1004.fbx">
+      <Name>Tx1004</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1005.fbx">
+      <Name>Tx1005</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1006.fbx">
+      <Name>Tx1006</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1007.fbx">
+      <Name>Tx1007</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1008.fbx">
+      <Name>Tx1008</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1009.fbx">
+      <Name>Tx1009</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1010.fbx">
+      <Name>Tx1010</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1011.fbx">
+      <Name>Tx1011</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1012.fbx">
+      <Name>Tx1012</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1013.fbx">
+      <Name>Tx1013</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1014.fbx">
+      <Name>Tx1014</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1015.fbx">
+      <Name>Tx1015</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1016.fbx">
+      <Name>Tx1016</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1017.fbx">
+      <Name>Tx1017</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1018.fbx">
+      <Name>Tx1018</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1019.fbx">
+      <Name>Tx1019</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1020.fbx">
+      <Name>Tx1020</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1021.fbx">
+      <Name>Tx1021</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1022.fbx">
+      <Name>Tx1022</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1023.fbx">
+      <Name>Tx1023</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1024.fbx">
+      <Name>Tx1024</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1025.fbx">
+      <Name>Tx1025</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1026.fbx">
+      <Name>Tx1026</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1027.fbx">
+      <Name>Tx1027</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1028.fbx">
+      <Name>Tx1028</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1029.fbx">
+      <Name>Tx1029</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1030.fbx">
+      <Name>Tx1030</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1031.fbx">
+      <Name>Tx1031</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1032.fbx">
+      <Name>Tx1032</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1033.fbx">
+      <Name>Tx1033</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1034.fbx">
+      <Name>Tx1034</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1035.fbx">
+      <Name>Tx1035</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1036.fbx">
+      <Name>Tx1036</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1037.fbx">
+      <Name>Tx1037</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1038.fbx">
+      <Name>Tx1038</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1039.fbx">
+      <Name>Tx1039</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1040.fbx">
+      <Name>Tx1040</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1041.fbx">
+      <Name>Tx1041</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1042.fbx">
+      <Name>Tx1042</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1043.fbx">
+      <Name>Tx1043</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1044.fbx">
+      <Name>Tx1044</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1045.fbx">
+      <Name>Tx1045</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1046.fbx">
+      <Name>Tx1046</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1047.fbx">
+      <Name>Tx1047</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1048.fbx">
+      <Name>Tx1048</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1049.fbx">
+      <Name>Tx1049</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1050.fbx">
+      <Name>Tx1050</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1051.fbx">
+      <Name>Tx1051</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1052.fbx">
+      <Name>Tx1052</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1053.fbx">
+      <Name>Tx1053</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1054.fbx">
+      <Name>Tx1054</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1055.fbx">
+      <Name>Tx1055</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1056.fbx">
+      <Name>Tx1056</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1057.fbx">
+      <Name>Tx1057</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1058.fbx">
+      <Name>Tx1058</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1059.fbx">
+      <Name>Tx1059</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1060.fbx">
+      <Name>Tx1060</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1061.fbx">
+      <Name>Tx1061</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1062.fbx">
+      <Name>Tx1062</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1063.fbx">
+      <Name>Tx1063</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+    <Compile Include="BenchmarksModels\Model1064.fbx">
+      <Name>Tx1064</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_TextureFormat>Color</ProcessorParameters_TextureFormat>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+</Project>
