@@ -18,6 +18,7 @@ namespace Benchmarks
         SpriteFont _font;
         
         ConcurrentBag<SpriteFont> _spriteFonts = new ConcurrentBag<SpriteFont>();
+        ConcurrentBag<Model> _models = new ConcurrentBag<Model>();
         ConcurrentBag<SoundEffect> _soundEffects = new ConcurrentBag<SoundEffect>();
         ConcurrentBag<Texture2D> _textures = new ConcurrentBag<Texture2D>();
         ConcurrentBag<Effect> _effects = new ConcurrentBag<Effect>();
@@ -53,6 +54,7 @@ namespace Benchmarks
                 {
                     int num = 1001 + i;
                     _spriteFonts.Add(content.Load<SpriteFont>("BenchmarksFonts\\Font" + num));
+                    _models.Add(content.Load<Model>("BenchmarksModels\\Model" + num));
                     _soundEffects.Add(content.Load<SoundEffect>("BenchmarksSounds\\Sound" + num));
                     _textures.Add(content.Load<Texture2D>("BenchmarksTextures\\Tx" + num));
                     _effects.Add(content.Load<Effect>("BenchmarksEffects\\Effect" + num));

@@ -16,6 +16,7 @@ namespace Benchmarks
         SpriteFont _font;
 
         List<SpriteFont> _spriteFonts = new List<SpriteFont>();
+        List<Model> _models = new List<Model>();
         List<SoundEffect> _soundEffects = new List<SoundEffect>();
         List<Texture2D> _textures = new List<Texture2D>();
         List<Effect> _effects = new List<Effect>();
@@ -45,6 +46,7 @@ namespace Benchmarks
             {
                 int num = 1001 + i;
                 _spriteFonts.Add(content.Load<SpriteFont>("BenchmarksFonts\\Font" + num));
+                _models.Add(content.Load<Model>("BenchmarksModels\\Model" + num));
                 _soundEffects.Add(content.Load<SoundEffect>("BenchmarksSounds\\Sound" + num));
                 _textures.Add(content.Load<Texture2D>("BenchmarksTextures\\Tx" + num));
                 _effects.Add(content.Load<Effect>("BenchmarksEffects\\Effect" + num));
