@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Benchmarks (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Benchmarks (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

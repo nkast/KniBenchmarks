@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Benchmarks.csproj", "{E82BEA03-4895-4F00-A4FA-DB3937145076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xna.Framework", "X:\kniEngine\kni\src\Xna.Framework\Xna.Framework.csproj", "{741B4B1E-89E4-434C-8867-6129838AFD51}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "..\Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNA.Framework.WinUI", "X:\kniEngine\kni\MonoGame.Framework\XNA.Framework.WinUI.csproj", "{144E79D6-FD48-4603-B17D-97A0BA2832A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|Any CPU.Build.0 = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|x64.ActiveCfg = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|x64.Build.0 = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Debug|x64.Deploy.0 = Debug|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|Any CPU.ActiveCfg = Release|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|Any CPU.Build.0 = Release|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|Any CPU.Deploy.0 = Release|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|x64.ActiveCfg = Release|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|x64.Build.0 = Release|x64
+		{E82BEA03-4895-4F00-A4FA-DB3937145076}.Release|x64.Deploy.0 = Release|x64
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Debug|x64.Build.0 = Debug|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|x64.ActiveCfg = Release|Any CPU
+		{741B4B1E-89E4-434C-8867-6129838AFD51}.Release|x64.Build.0 = Release|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Debug|x64.Build.0 = Debug|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Release|x64.ActiveCfg = Release|Any CPU
+		{144E79D6-FD48-4603-B17D-97A0BA2832A2}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A56D4C0A-D881-40F5-A681-3A030AF56B52}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Benchmarks.Shared\Benchmarks.Shared.projitems*{e82bea03-4895-4f00-a4fa-db3937145076}*SharedItemsImports = 5
+		..\Benchmarks.Shared\Benchmarks.Shared.projitems*{efc61fed-dd64-4887-81ba-8a5604ba8c04}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

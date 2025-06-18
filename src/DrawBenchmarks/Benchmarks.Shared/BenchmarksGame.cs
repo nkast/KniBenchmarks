@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Media;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Input.Touch;
 
 namespace Benchmarks
 {
@@ -16,18 +12,7 @@ namespace Benchmarks
     public class BenchmarksGame : Game
     {
         GraphicsDeviceManager _graphics;
-        SpriteBatch _spriteBatch;
-
-        FpsComponent _fpsComponent;
-        TestComponent _testComponent;
-
-        DrawSpriteComponent _drawSpriteComponentImmediate;
-        DrawSpriteComponent _drawSpriteComponent;
-        DrawSpritesComponent _drawSpritesComponent;
-        DrawStringComponent _drawStringComponentFlipped;
-        DrawStringComponent _drawStringComponent;
-        SimpleAnimationComponent _simpleAnimationComponent;
-
+           
 
         public BenchmarksGame()
         {
@@ -52,39 +37,6 @@ namespace Benchmarks
         {
             // TODO: Add your initialization logic here
 
-            _drawSpriteComponentImmediate = new DrawSpriteComponent(this);
-            _drawSpriteComponentImmediate.SortMode = SpriteSortMode.Immediate;
-            _drawSpriteComponentImmediate.Visible = false;
-            this.Components.Add(_drawSpriteComponentImmediate);
-
-            _drawSpriteComponent = new DrawSpriteComponent(this);
-            _drawSpriteComponent.Visible = false;
-            this.Components.Add(_drawSpriteComponent);
-
-            _drawSpritesComponent = new DrawSpritesComponent(this);
-            _drawSpritesComponent.Visible = false;
-            this.Components.Add(_drawSpritesComponent);
-
-            _drawStringComponentFlipped = new DrawStringComponent(this);
-            _drawStringComponentFlipped.Effects = SpriteEffects.FlipHorizontally | SpriteEffects.FlipVertically;
-            _drawStringComponentFlipped.Visible = false;
-            this.Components.Add(_drawStringComponentFlipped);
-
-            _drawStringComponent = new DrawStringComponent(this);
-            _drawStringComponent.Visible = true;
-            this.Components.Add(_drawStringComponent);
-            
-            _simpleAnimationComponent = new SimpleAnimationComponent(this);
-            _simpleAnimationComponent.Visible = false;
-            this.Components.Add(_simpleAnimationComponent);
-
-            _testComponent = new TestComponent(this);
-            this.Components.Add(_testComponent);
-
-            _fpsComponent = new FpsComponent(this);
-            _fpsComponent.DrawOrder = int.MaxValue;
-            this.Components.Add(_fpsComponent);
-
             base.Initialize();
         }
 
@@ -94,8 +46,6 @@ namespace Benchmarks
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
         }
@@ -116,20 +66,6 @@ namespace Benchmarks
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            MouseState mouseState = Mouse.GetState();
-            KeyboardState keyboardState = Keyboard.GetState();
-            GamePadState gamePadState = default(GamePadState);
-            try { gamePadState = GamePad.GetState(PlayerIndex.One); }
-            catch (NotImplementedException) { /* ignore gamePadState */ }
-
-            if (keyboardState.IsKeyDown(Keys.Escape) ||
-                keyboardState.IsKeyDown(Keys.Back) ||
-                gamePadState.Buttons.Back == ButtonState.Pressed)
-            {
-                try { Exit(); }
-                catch (PlatformNotSupportedException) { /* ignore */ }
-            }
-
             // TODO: Add your update logic here
 
             base.Update(gameTime);
