@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Shared", "Benchmarks.Shared\Benchmarks.Shared.shproj", "{EFC61FED-DD64-4887-81BA-8A5604BA8C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.Android.net4", "Benchmarks.Kni.Android\Benchmarks.Kni.Android.net4.csproj", "{0AA717D8-F032-40AB-B518-25CECFD2D7FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.WindowsDX.net4", "Benchmarks.Kni.WindowsDX\Benchmarks.Kni.WindowsDX.net4.csproj", "{60296060-2810-417A-8CE9-9F59C5E05B60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.DesktopGL.net4", "Benchmarks.Kni.DesktopGL\Benchmarks.Kni.DesktopGL.net4.csproj", "{B7BB9284-D79D-4CCD-9B4C-9E54536DDA9F}"
@@ -27,30 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|ARM.Build.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|ARM.Deploy.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x64.Build.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x64.Deploy.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x86.Build.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Debug|x86.Deploy.0 = Debug|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|ARM.ActiveCfg = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|ARM.Build.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|ARM.Deploy.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x64.ActiveCfg = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x64.Build.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x64.Deploy.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x86.ActiveCfg = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x86.Build.0 = Release|Any CPU
-		{0AA717D8-F032-40AB-B518-25CECFD2D7FC}.Release|x86.Deploy.0 = Release|Any CPU
 		{60296060-2810-417A-8CE9-9F59C5E05B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60296060-2810-417A-8CE9-9F59C5E05B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60296060-2810-417A-8CE9-9F59C5E05B60}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -139,7 +113,6 @@ Global
 		SolutionGuid = {A09E72BC-63B2-4F0B-9B29-9537F604CF9C}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Benchmarks.Shared\Benchmarks.Shared.projitems*{0aa717d8-f032-40ab-b518-25cecfd2d7fc}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{584ebc20-ae19-4945-93ef-c5080f6d9893}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{60296060-2810-417a-8ce9-9f59c5e05b60}*SharedItemsImports = 4
 		Benchmarks.Shared\Benchmarks.Shared.projitems*{a18554dc-9ebf-4102-8766-9ebb69a7c7f3}*SharedItemsImports = 4
