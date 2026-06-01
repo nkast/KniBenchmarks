@@ -42,14 +42,14 @@ namespace Benchmarks
 
         private void BenchmarkLoadContent(ContentManager content)
         {
-            for (int i = 0; i < 64; i++)
+            for (int i = 0; i < 5000; i++)
             {
                 int num = 1001 + i;
-                _spriteFonts.Add(content.Load<SpriteFont>("BenchmarksFonts\\Font" + num));
-                _models.Add(content.Load<Model>("BenchmarksModels\\Model" + num));
-                _soundEffects.Add(content.Load<SoundEffect>("BenchmarksSounds\\Sound" + num));
+                //_spriteFonts.Add(content.Load<SpriteFont>("BenchmarksFonts\\Font" + num));
+                //_models.Add(content.Load<Model>("BenchmarksModels\\Model" + num));
+                //_soundEffects.Add(content.Load<SoundEffect>("BenchmarksSounds\\Sound" + num));
                 _textures.Add(content.Load<Texture2D>("BenchmarksTextures\\Tx" + num));
-                _effects.Add(content.Load<Effect>("BenchmarksEffects\\Effect" + num));
+                //_effects.Add(content.Load<Effect>("BenchmarksEffects\\Effect" + num));
             }
         }
 

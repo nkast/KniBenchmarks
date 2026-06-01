@@ -41,6 +41,9 @@
   <ItemGroup>
     <KniContentReference Include="..\BenchmarksContent\BenchmarksContent.mgcb">
       <Link>Content\BenchmarksContent.mgcb</Link>
+	</KniContentReference>
+    <KniContentReference Include="..\BenchmarksContent\BenchmarksTexturesContent.mgcb">
+      <Link>Content\BenchmarksTexturesContent.mgcb</Link>
     </KniContentReference>
   </ItemGroup>
   <ItemGroup>
