@@ -10,7 +10,7 @@
     <OutputPath>..\bin\$(Configuration)\net10\Kni\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Benchmarks.Shared\*Benchmarks.cs" Link="%(Filename)%(Extension)" />
+    <Compile Include="*Benchmarks.cs" Link="%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nkast.Xna.Framework" Version="4.2.9001" />

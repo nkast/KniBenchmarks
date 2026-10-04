@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks.Fna", "Benchmark
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Fna.net10", "Benchmarks.Fna\Benchmarks.Fna.net10.csproj", "{6720664F-1047-41AF-B6EC-0F92FDE46019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.Lib", "Benchmarks.Kni.Lib\Benchmarks.Kni.Lib.csproj", "{D2797F61-EB6F-486A-8DF4-6A5E33A308D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.Lib", "Benchmarks.Shared\Benchmarks.Kni.Lib.csproj", "{D2797F61-EB6F-486A-8DF4-6A5E33A308D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Mg.Lib", "Benchmarks.Mg.Lib\Benchmarks.Mg.Lib.csproj", "{C06D426A-2A5C-4D13-AA13-2B54735989E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Mg.Lib", "Benchmarks.Shared\Benchmarks.Mg.Lib.csproj", "{C06D426A-2A5C-4D13-AA13-2B54735989E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Fna.Lib", "Benchmarks.Fna.Lib\Benchmarks.Fna.Lib.csproj", "{DC4766CF-25AD-4BC9-8826-0CD921BC9091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Fna.Lib", "Benchmarks.Shared\Benchmarks.Fna.Lib.csproj", "{DC4766CF-25AD-4BC9-8826-0CD921BC9091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

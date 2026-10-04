@@ -9,7 +9,7 @@
     <OutputPath>..\bin\$(Configuration)\net10\Mg\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Benchmarks.Shared\*Benchmarks.cs" Link="%(Filename)%(Extension)" />
+    <Compile Include="*Benchmarks.cs" Link="%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />

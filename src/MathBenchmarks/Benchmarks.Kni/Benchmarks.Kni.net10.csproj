@@ -13,6 +13,6 @@
     <Compile Include="..\Benchmarks.Shared\Program.cs" Link="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Benchmarks.Kni.Lib\Benchmarks.Kni.Lib.csproj" />
+    <ProjectReference Include="..\Benchmarks.Shared\Benchmarks.Kni.Lib.csproj" />
   </ItemGroup>
 </Project>
