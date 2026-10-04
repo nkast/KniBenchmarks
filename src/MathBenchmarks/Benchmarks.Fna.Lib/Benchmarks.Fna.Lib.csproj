@@ -1,18 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Benchmarks</RootNamespace>
-    <RollForward>Major</RollForward>
-    <TieredCompilation>false</TieredCompilation>
     <Optimize>true</Optimize>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net10\Fna\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Benchmarks.Shared\Program.cs" Link="Program.cs" />
+    <Compile Include="..\Benchmarks.Shared\*Benchmarks.cs" Link="%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Benchmarks.Fna.Lib\Benchmarks.Fna.Lib.csproj" />
+    <Reference Include="FNA">
+      <HintPath>..\..\ContentBenchmarks\Benchmarks.Fna.OpenGL\FNA23.07\net6.0\FNA.dll</HintPath>
+    </Reference>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
   </ItemGroup>
 </Project>

@@ -1,18 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Benchmarks</RootNamespace>
-    <RollForward>Major</RollForward>
-    <TieredCompilation>false</TieredCompilation>
     <Optimize>true</Optimize>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\$(Configuration)\net10\Mg\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Benchmarks.Shared\Program.cs" Link="Program.cs" />
+    <Compile Include="..\Benchmarks.Shared\*Benchmarks.cs" Link="%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Benchmarks.Mg.Lib\Benchmarks.Mg.Lib.csproj" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
   </ItemGroup>
 </Project>

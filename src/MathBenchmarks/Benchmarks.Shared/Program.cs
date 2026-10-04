@@ -15,7 +15,7 @@ namespace Benchmarks
                 .AddJob(Job.Default.WithToolchain(InProcessNoEmitToolchain.Instance))
                 .WithOptions(ConfigOptions.DisableOptimizationsValidator);
 
-            BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, config);
+            BenchmarkSwitcher.FromAssembly(typeof(MathBenchmarks).Assembly).Run(args, config);
         }
     }
 }
