@@ -12,5 +12,8 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />
   </ItemGroup>
+    <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+  </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
 </Project>

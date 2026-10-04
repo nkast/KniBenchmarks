@@ -4,4 +4,4 @@ obj/
 *.suo
 *.cachefile
 *.user
-*.bak
+*.bakBenchmarkDotNet.Artifacts/

@@ -14,5 +14,8 @@
       <HintPath>..\..\ContentBenchmarks\Benchmarks.Fna.OpenGL\FNA23.07\net6.0\FNA.dll</HintPath>
     </Reference>
   </ItemGroup>
+    <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+  </ItemGroup>
   <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
 </Project>
