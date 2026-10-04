@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Benchmarks</RootNamespace>
+    <RollForward>Major</RollForward>
+    <TieredCompilation>false</TieredCompilation>
+    <Optimize>true</Optimize>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\bin\$(Configuration)\net8\Mg\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />
+  </ItemGroup>
+  <Import Project="..\Benchmarks.Shared\Benchmarks.Shared.projitems" Label="Shared" />
+</Project>
