@@ -5,15 +5,15 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks.Kni", "Benchmarks.Kni", "{D486740F-9D43-1302-7714-FBED9D3B8F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.net8", "Benchmarks.Kni\Benchmarks.Kni.net8.csproj", "{ED00AB0A-09FF-4F35-BE9B-FEEA0EE1A925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Kni.net10", "Benchmarks.Kni\Benchmarks.Kni.net10.csproj", "{ED00AB0A-09FF-4F35-BE9B-FEEA0EE1A925}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks.Mg", "Benchmarks.Mg", "{F787269D-C6B3-48A5-D77C-C28779191AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Mg.net8", "Benchmarks.Mg\Benchmarks.Mg.net8.csproj", "{53BACB42-5854-4DEC-B7B2-1454F037F37D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Mg.net10", "Benchmarks.Mg\Benchmarks.Mg.net10.csproj", "{53BACB42-5854-4DEC-B7B2-1454F037F37D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks.Fna", "Benchmarks.Fna", "{47FE7CEC-79A8-E047-9CA3-81794E2D2663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Fna.net8", "Benchmarks.Fna\Benchmarks.Fna.net8.csproj", "{6720664F-1047-41AF-B6EC-0F92FDE46019}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Fna.net10", "Benchmarks.Fna\Benchmarks.Fna.net10.csproj", "{6720664F-1047-41AF-B6EC-0F92FDE46019}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

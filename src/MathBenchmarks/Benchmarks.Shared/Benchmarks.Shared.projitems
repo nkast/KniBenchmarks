@@ -11,6 +11,8 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)MathBenchmarks.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)VectorBenchmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FrustumViewportBenchmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KniTypesBenchmarks.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
   </ItemGroup>
 </Project>
