@@ -11,7 +11,7 @@ namespace Benchmarks
     {
         const int Columns = 32;
         const int Rows = 20;
-        const int Repeat = 16;
+        const int Repeat = 64;
 
         BasicEffect _effect;
         VertexPositionColor[] _vertices;
