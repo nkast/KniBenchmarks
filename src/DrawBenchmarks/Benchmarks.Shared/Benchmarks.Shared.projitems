@@ -10,6 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)BenchmarksGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawUserIndexedPrimitivesComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawUserPrimitivesComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawSpriteComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawSpritesComponent.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DrawStringComponent.cs" />

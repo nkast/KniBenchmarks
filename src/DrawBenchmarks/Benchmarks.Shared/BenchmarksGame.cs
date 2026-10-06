@@ -27,6 +27,8 @@ namespace Benchmarks
         DrawStringComponent _drawStringComponentFlipped;
         DrawStringComponent _drawStringComponent;
         SimpleAnimationComponent _simpleAnimationComponent;
+        DrawUserPrimitivesComponent _drawUserPrimitivesComponent;
+        DrawUserIndexedPrimitivesComponent _drawUserIndexedPrimitivesComponent;
 
 
         public BenchmarksGame()
@@ -77,6 +79,14 @@ namespace Benchmarks
             _simpleAnimationComponent = new SimpleAnimationComponent(this);
             _simpleAnimationComponent.Visible = false;
             this.Components.Add(_simpleAnimationComponent);
+
+            _drawUserPrimitivesComponent = new DrawUserPrimitivesComponent(this);
+            _drawUserPrimitivesComponent.Visible = false;
+            this.Components.Add(_drawUserPrimitivesComponent);
+
+            _drawUserIndexedPrimitivesComponent = new DrawUserIndexedPrimitivesComponent(this);
+            _drawUserIndexedPrimitivesComponent.Visible = false;
+            this.Components.Add(_drawUserIndexedPrimitivesComponent);
 
             _testComponent = new TestComponent(this);
             this.Components.Add(_testComponent);
